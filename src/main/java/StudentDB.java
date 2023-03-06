@@ -3,9 +3,9 @@ public class StudentDB {
     private String [] studentName;
     private int [] studentID;
 
-    public StudentDB (String[] listOfStudents, int[] studentID){
+    public StudentDB (String[] studentName, int[] studentID){
         System.out.println("A new student list has been created");
-        this.studentName = listOfStudents;
+        this.studentName = studentName;
         this.studentID = studentID;
     }
 
@@ -16,6 +16,7 @@ public class StudentDB {
 
     public String toString (){
         // schleife?
+
         for (String a : this.studentName){
             System.out.println(a);
         }

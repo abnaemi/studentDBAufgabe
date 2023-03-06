@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        StudentDB firstGroup = new StudentDB(new String[]{"Tai", "Kai", "Mari"}, new int[]{1, 2, 2});
+        StudentDB firstGroup = new StudentDB(new String[]{"Tai", "Kai", "Mari"}, new int[]{1, 2, 3});
 
 
         System.out.println("Allstudentsmethod" + firstGroup.getAllStudents());
